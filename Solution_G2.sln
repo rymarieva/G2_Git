@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solution_G2", "Solution_G2\Solution_G2.csproj", "{3171484F-212E-43F6-AF27-3F0E6F4B425C}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExceptions", "TestExceptions\TestExceptions.csproj", "{7CF966FC-7231-4A26-A2EA-CC8BC9B09447}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{84D88DCD-296B-4801-B64E-CE3F3631AFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDriver", "WebDriver\WebDriver.csproj", "{3A58932F-3E88-4306-A829-1D838C79AB8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{84D88DCD-296B-4801-B64E-CE3F3631AFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84D88DCD-296B-4801-B64E-CE3F3631AFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84D88DCD-296B-4801-B64E-CE3F3631AFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A58932F-3E88-4306-A829-1D838C79AB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A58932F-3E88-4306-A829-1D838C79AB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A58932F-3E88-4306-A829-1D838C79AB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A58932F-3E88-4306-A829-1D838C79AB8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C06A1978-FE52-4FF4-8FB1-A7832075C754}
 	EndGlobalSection
 EndGlobal
